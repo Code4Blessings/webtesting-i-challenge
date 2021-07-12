@@ -1,5 +1,9 @@
-const enhancer = require('./enhancer.js');
+const Enhancer = require('./enhancer.js');
+
 // test away!
 describe('Enhancer Class', () => {
+    it('should work', () => {
+       expect(Enhancer).toBeDefined()
+    })
     
 })
